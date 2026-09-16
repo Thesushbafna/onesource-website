@@ -1,0 +1,27 @@
+ONE SOURCE OS - START HERE
+CRM + Operations + Internal Accounting | Version 1.0 pilot
+
+1. Extract this entire ZIP.
+2. Install Python 3.10 or newer if needed.
+3. On Windows, double-click start_windows.bat.
+   On Mac/Linux, open a terminal here and run: sh start_mac_linux.sh
+4. Keep that terminal open.
+5. The browser opens at http://127.0.0.1:8765
+6. Username: admin
+   Password: the random password printed in the terminal on first use.
+
+The demo uses FICTIONAL records. Nothing was imported from live company data.
+Your changes in the running application are saved in data/onesource-demo.sqlite3.
+
+PREVIEW.html is read-only. You can open it without Python to see the interface,
+but its forms cannot save transactions.
+
+Use start_clean_windows.bat or start_clean_mac_linux.sh for a separate EMPTY
+pilot database. Read README.md before entering any actual business records.
+
+This is a working pilot, NOT a production-certified accounting package.
+It is not hosted. TallyPrime, GST/IRN/e-way bill services, banking, Gmail,
+Google Drive and WhatsApp are not connected. Keep your existing statutory books.
+
+Read README.md, then docs/USER_GUIDE.md.
+For production planning, read docs/DEPLOYMENT_CHECKLIST.md.
